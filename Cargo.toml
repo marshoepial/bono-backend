@@ -1,0 +1,17 @@
+[package]
+name = "bono-backend"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.41"
+async-trait = "0.1.50"
+chrono = "0.4.19"
+native-tls = "0.2.7"
+serde = { version = "^1.0", features = ["derive"] }
+serde_with = { version = "1.9.4", features = ["chrono"] }
+sqlx = { version = "0.5.5", features = [ "runtime-tokio-native-tls", "sqlite", "chrono" ] }
+tokio = { version = "1.8.1", features = ["full"] }
+warp = "0.3.1"
