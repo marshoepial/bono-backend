@@ -1,2 +1,2 @@
-pub mod events;
 mod endpoint_utils;
+pub mod events;

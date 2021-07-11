@@ -1,6 +1,6 @@
 ## bono backend
 
-The backend of bono.
+The backend of bono. Licensed under agpl.
 
 ### Getting set up:
 This is in very early stages of development and isn't reccomended for production yet.
